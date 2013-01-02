@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<help>
+	<come_n_play>
+		<page nr="1" heading="Cannon" pic="cannon_cap" text="This is your cannon. You can shoot crystals by dragging crystals into the desired direction. It has also a help-button and shows you your current score."/>
+		<page nr="2" heading="Goal" pic="goal_cap" text="The goal of the Come'n'Play mode is to destroy the monster in the middle by shooting crystals at it. The crystals can only get destroyed, if at least 3 of the same color crash together."/>
+		<page nr="3" heading="InGame Help" pic="ingame_help" text="You can retrieve some information about crystalys with the ingame help. Just hold the info-button in your base and select a crystal on the screen to get the information about it."/> 
+		<page nr="4" heading="Items" pic="items" text="There exist severeal crystals in this mode, that have special powers. Some of them could help you but some of them are bad. Take a look at the settings to see what they do."/>
+		<page nr="5" heading="Block" pic="block" text="You can change the direction of flying crystals by creating walls or blocks with touches."/>
+		<page nr="6" heading="Direction Change" pic="direction" text="You can also change the flight path of crystals by dragging them into the desired direction. But take care, they become faster then!"/>
+	</come_n_play>
+	<city_defense>
+		<page nr="1" heading="Cannon" pic="cannon_cd" text="This is your cannon. You can shoot crystals by dragging crystals into the desired direction. It has also a help-button, a health bar, a cancel button and shows you your current score. If you hold the black circle long enough, then you leave the game."/>
+		<page nr="2" heading="Goal" pic="goal_cd" text="The goal of City Defense is to destroy the monster in the middle as fast as possible. The monster has some children that attack your cannon. Try to protect your base with walls and cooperate with others."/>
+		<page nr="3" heading="Items" pic="items" text="There exist severeal crystals in this mode, that have special powers. Some of them could help you but some of them are bad. Take a look at the settings to see what they do."/>
+		<page nr="4" heading="InGame Help" pic="ingame_help" text="You can retrieve some information about crystalys with the ingame help. Just hold the info-button in your base and select a crystal on the screen to get the information about it."/> 
+		<page nr="5" heading="Block" pic="block" text="You can change the direction of flying crystals by creating walls or blocks with touches."/>
+		<page nr="6" heading="Direction Change" pic="direction" text="You can also change the flight path of crystals by dragging them into the desired direction. But take care, they become faster then!"/>	
+	</city_defense>
+	<versus>
+		<page nr="1" heading="Cannon" pic="cannon_cap" text="This is your cannon. You can shoot crystals by dragging crystals into the desired direction. It has also a help-button and shows you your current score."/>
+		<page nr="2" heading="Goal" pic="goal_versus" text="In a Clan Fight, 2 or 3 players fight against each other. The first one, who destroys his structure and got most points has won. You can bother your foes by shooting inappropriate crystals at their structure."/>
+		<page nr="3" heading="Items" pic="items" text="There exist severeal crystals in this mode, that have special powers. Some of them could help you but some of them are bad. Take a look at the settings to see what they do."/>
+		<page nr="4" heading="InGame Help" pic="ingame_help" text="You can retrieve some information about crystalys with the ingame help. Just hold the info-button in your base and select a crystal on the screen to get the information about it."/> 
+		<page nr="5" heading="Block" pic="block" text="You can change the direction of flying crystals by creating walls or blocks with touches."/>
+		<page nr="6" heading="Direction Change" pic="direction" text="You can also change the flight path of crystals by dragging them into the desired direction. But take care, they become faster then!"/>	
+	</versus>
+</help>

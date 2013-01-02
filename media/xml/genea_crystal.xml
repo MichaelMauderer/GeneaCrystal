@@ -1,0 +1,327 @@
+<?xml version="1.0" ?><config>
+	<game difficulty="hard" mode="come_n_play">
+		<difficulty val="easy">
+			<setting id="rotation_speed" val="0"/>
+			<setting id="growing_speed" val="0"/>
+			<setting id="crystals" val="4"/>
+			<items>
+				<item probability="15" type="ColoredCrystal"/>
+				<item probability="1" type="CCWRotationCrystal"/>
+				<item probability="1" type="CWRotationCrystal"/>
+				<item probability="2" type="ExplosionCrystal"/>
+				
+				<item probability="25" type="ColoredElement"/>
+				<item probability="5" type="HiddenElement"/>
+				<item probability="2" type="EaterElement"/>
+				<item probability="2" type="VeilElement"/>
+				<item probability="1" type="SpawnElement"/>
+			</items>
+		</difficulty>
+		<difficulty val="medium">
+			<setting id="rotation_speed" val="10"/>
+			<setting id="growing_speed" val="2"/>
+			<setting id="crystals" val="5"/>
+			<items>
+				<item probability="15" type="ColoredCrystal"/>
+				<item probability="1" type="CCWRotationCrystal"/>
+				<item probability="1" type="CWRotationCrystal"/>
+				<item probability="2" type="ExplosionCrystal"/>
+				
+				<item probability="20" type="ColoredElement"/>
+				<item probability="5" type="HiddenElement"/>
+				<item probability="3" type="EaterElement"/>
+				<item probability="2" type="VeilElement"/>
+				<item probability="2" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				
+			</items>	
+		</difficulty>
+		<difficulty val="hard">
+			<setting id="rotation_speed" val="50"/>
+			<setting id="growing_speed" val="10"/>
+			<setting id="crystals" val="8"/>
+			<items>
+				<item probability="25" type="ColoredCrystal"/>
+				<item probability="5" type="CCWRotationCrystal"/>
+				<item probability="5" type="CWRotationCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="15" type="ColoredElement"/>
+				<item probability="7" type="HiddenElement"/>
+				<item probability="3" type="EaterElement"/>
+				<item probability="2" type="VeilElement"/>
+				<item probability="3" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				
+			</items>	
+		</difficulty>	
+		<difficulty val="custom">
+			<setting id="rotation_speed" val="50"/>
+			<setting id="growing_speed" val="39"/>
+			<setting id="crystals" val="4"/>
+			<items>
+				<item probability="10" type="ColoredCrystal"/>
+				<item probability="12" type="ColoredElement"/>
+				<item probability="4" type="CCWRotationCrystal"/>
+				<item probability="1" type="CWRotationCrystal"/>
+				<item probability="1" type="EaterCrystal"/>
+				<item probability="4" type="ExplosionCrystal"/>
+				
+				<item probability="3" type="HiddenElement"/>
+				<item probability="3" type="EaterElement"/>
+				<item probability="3" type="VeilElement"/>
+				<item probability="3" type="SpawnElement"/>
+				<item probability="3" type="IndestructibleElement"/>
+				
+			</items>	
+		</difficulty>	
+	</game>
+	<game difficulty="custom" mode="city_defense">
+		<difficulty val="easy">
+			<setting id="rotation_speed" val="5"/>
+			<setting id="growing_speed" val="1"/>
+			<setting id="shooting_speed" val="25"/>
+			<setting id="crystals" val="10"/>
+			<items>
+				<item probability="15" type="ColoredCrystal"/>
+				<item probability="1" type="CCWRotationCrystal"/>
+				<item probability="1" type="CWRotationCrystal"/>
+				<item probability="2" type="ExplosionCrystal"/>
+				
+				<item probability="25" type="ColoredElement"/>
+				<item probability="5" type="HiddenElement"/>
+				<item probability="2" type="EaterElement"/>
+				<item probability="2" type="VeilElement"/>
+				<item probability="1" type="SpawnElement"/>
+				<item probability="10" type="AggressionElement"/>
+				
+			</items>	
+		</difficulty>
+		<difficulty val="medium">
+			<setting id="rotation_speed" val="50"/>
+			<setting id="growing_speed" val="2"/>
+			<setting id="shooting_speed" val="40"/>
+			<setting id="crystals" val="5"/>
+			<items>
+				<item probability="15" type="ColoredCrystal"/>
+				<item probability="1" type="CCWRotationCrystal"/>
+				<item probability="1" type="CWRotationCrystal"/>
+				<item probability="2" type="ExplosionCrystal"/>
+				
+				<item probability="20" type="ColoredElement"/>
+				<item probability="5" type="HiddenElement"/>
+				<item probability="3" type="EaterElement"/>
+				<item probability="2" type="VeilElement"/>
+				<item probability="2" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				<item probability="10" type="AggressionElement"/>
+				
+			</items>	
+		</difficulty>
+		<difficulty val="hard">
+			<setting id="rotation_speed" val="50"/>
+			<setting id="growing_speed" val="10"/>
+			<setting id="shooting_speed" val="80"/>
+			<setting id="crystals" val="8"/>
+			<items>
+				<item probability="25" type="ColoredCrystal"/>
+				<item probability="5" type="CCWRotationCrystal"/>
+				<item probability="5" type="CWRotationCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="15" type="ColoredElement"/>
+				<item probability="7" type="HiddenElement"/>
+				<item probability="3" type="EaterElement"/>
+				<item probability="2" type="VeilElement"/>
+				<item probability="3" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				<item probability="10" type="AggressionElement"/>
+				
+			</items>	
+		</difficulty>
+		<difficulty val="custom">
+			<setting id="rotation_speed" val="5"/>
+			<setting id="growing_speed" val="50"/>
+			<setting id="shooting_speed" val="50"/>
+			<setting id="crystals" val="7"/>
+			<items>
+				<item probability="10" type="ColoredCrystal"/>
+				<item probability="10" type="ColoredElement"/>
+				<item probability="1" type="CCWRotationCrystal"/>
+				<item probability="1" type="CWRotationCrystal"/>
+				<item probability="1" type="EaterCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="1" type="HiddenElement"/>
+				<item probability="1" type="EaterElement"/>
+				<item probability="1" type="VeilElement"/>
+				<item probability="1" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				<item probability="1" type="AggressionElement"/>
+				
+			</items>			
+		</difficulty>	
+	</game>
+	<game difficulty="easy" mode="versus_2">
+		<difficulty val="easy">
+			<setting id="growing_speed" val="5"/>
+			<setting id="crystals" val="4"/>
+			<items>
+				<item probability="3" type="ColoredCrystal"/>
+				<item probability="2" type="EaterCrystal"/>
+				<item probability="100" type="ExplosionCrystal"/>
+				
+				<item probability="50" type="ColoredElement"/>
+				<item probability="10" type="HiddenElement"/>
+				<item probability="5" type="EaterElement"/>
+				<item probability="5" type="VeilElement"/>
+				<item probability="5" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				
+			</items>
+		</difficulty>
+		<difficulty val="medium">
+			<setting id="growing_speed" val="4"/>
+			<setting id="crystals" val="20"/>
+			<items>
+				<item probability="30" type="ColoredCrystal"/>
+				<item probability="20" type="EaterCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="20" type="ColoredElement"/>
+				<item probability="10" type="HiddenElement"/>
+				<item probability="5" type="EaterElement"/>
+				<item probability="5" type="VeilElement"/>
+				<item probability="5" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+			</items>
+			</difficulty>
+		<difficulty val="hard">
+			<setting id="growing_speed" val="15"/>
+			<setting id="crystals" val="8"/>
+			<items>
+				<item probability="30" type="ColoredCrystal"/>
+				<item probability="20" type="EaterCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="10" type="ColoredElement"/>
+				<item probability="10" type="HiddenElement"/>
+				<item probability="5" type="EaterElement"/>
+				<item probability="5" type="VeilElement"/>
+				<item probability="5" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				
+			</items>
+		</difficulty>
+		<difficulty val="custom">
+			<setting id="growing_speed" val="15"/>
+			<setting id="crystals" val="7"/>
+			<items>
+				<item probability="10" type="ColoredCrystal"/>
+				<item probability="10" type="ColoredElement"/>
+				<item probability="1" type="EaterCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="1" type="HiddenElement"/>
+				<item probability="1" type="EaterElement"/>
+				<item probability="1" type="VeilElement"/>
+				<item probability="1" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				
+			</items>		
+		</difficulty>	
+	</game>
+	<game difficulty="custom" mode="versus_3">
+		<difficulty val="easy">
+			<setting id="growing_speed" val="1"/>
+			<setting id="crystals" val="4"/>
+			<items>
+				<item probability="30" type="ColoredCrystal"/>
+				<item probability="20" type="EaterCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="50" type="ColoredElement"/>
+				<item probability="10" type="HiddenElement"/>
+				<item probability="5" type="EaterElement"/>
+				<item probability="5" type="VeilElement"/>
+				<item probability="5" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+								
+			</items>			
+			</difficulty>
+		<difficulty val="medium">
+			<setting id="growing_speed" val="2"/>
+			<setting id="crystals" val="5"/>
+			<items>
+			<item probability="30" type="ColoredCrystal"/>
+				<item probability="20" type="EaterCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="35" type="ColoredElement"/>
+				<item probability="10" type="HiddenElement"/>
+				<item probability="5" type="EaterElement"/>
+				<item probability="5" type="VeilElement"/>
+				<item probability="5" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				
+			</items>			
+		</difficulty>
+		<difficulty val="hard">
+			<setting id="growing_speed" val="10"/>
+			<setting id="crystals" val="8"/>
+			<items>
+			<item probability="30" type="ColoredCrystal"/>
+				<item probability="20" type="EaterCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="10" type="ColoredElement"/>
+				<item probability="10" type="HiddenElement"/>
+				<item probability="5" type="EaterElement"/>
+				<item probability="5" type="VeilElement"/>
+				<item probability="5" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+			</items>			
+		</difficulty>
+		<difficulty val="custom">
+			<setting id="growing_speed" val="55"/>
+			<setting id="crystals" val="6"/>
+			<items>
+				<item probability="10" type="ColoredCrystal"/>
+				<item probability="10" type="ColoredElement"/>
+				<item probability="1" type="EaterCrystal"/>
+				<item probability="1" type="ExplosionCrystal"/>
+				
+				<item probability="0" type="HiddenElement"/>
+				<item probability="2" type="EaterElement"/>
+				<item probability="2" type="VeilElement"/>
+				<item probability="2" type="SpawnElement"/>
+				<item probability="1" type="IndestructibleElement"/>
+				
+			</items>	
+		</difficulty>	
+	</game>
+	<infos>
+		<item description="Put together more than three crystals of this color to make them disappear. You can move them by flicking them in the desired direction." name="Crystal" type="color_crystal"/>
+		<item description="Put together more than three crystals of this color to make them disappear." name="Crystal" type="color_element"/>
+		
+		<item description="You want to make the evil appearance disappear. For this you have to destroy all small crystals around it." name="Center Rainbow Crystal" type="center_node"/>
+		<item description="This is the place where you can shoot crystals by flicking them into the field. In addition you can leave the game by holding the X." name="Fortress" type="simple_base"/>
+		<item description="Here you can launch crystals by flicking them into the field. You can leave the game by holding the X. The number indicates your current score." name="Fortress" type="score_base"/>
+		<item description="Here you can launch crystals by flicking them into the field. You can also see your score, health and leave the game." name="Fortress" type="breakable_base"/>
+		
+		<item description="Destroys crystals around him on collision." imgpath="jewels/items/explosion.png" name="Dynamite Crystal" type="explosion_crystal"/>
+		<item description="You won't know which color this crystal has until you hit it." imgpath="jewels/items/hide.png" name="Hide Crystal" type="hide_crystal"/>
+		<item description="Attention! Destroy this fast as it shoots towards your city." imgpath="jewels/items/bullet.png" name="Bullet Crystal" type="bullet_crystal"/>
+		<item description="Attention! If you hit this crystal, many new crystals will be created by the structure. Try to get rid if it otherwise." imgpath="jewels/items/spawn.png" name="Spawn Crystal" type="spawn_crystal"/>
+		<item description="This crystal eats a few other crystals while flying." imgpath="jewels/items/eater.png" name="Eater Crystal" type="flying_eater"/>
+		<item description="If this crystal hits the structure, the structure will rotate counterclockwise." imgpath="jewels/items/ccw.png" name="Rotation Crystal Counterclockwise" type="rotation_ccw"/>
+		<item description="If this crystal hits the structure, the structure will rotate clockwise." imgpath="jewels/items/cw.png" name="Rotation Crystal Clockwise" type="rotation_cw"/>
+		<item description="Attention! If you hit this crystal you won't be able to see which colors the crystals in the structure have." imgpath="jewels/items/veil.png" name="Hide all Crystals" type="veil_crystal"/>
+		<item description="Attention! This crystal shoots Bullet Crystals towards your base. Try to destroy it." imgpath="jewels/items/arms.png" name="Aggressor Crystal" type="arms_crystal"/>
+		<item description="This crystal destroys 5 crystals before he allows one to connect to the structure." imgpath="" name="Eater Crystal" type="static_eater"/>
+		<item description="If this crystal hits the structure, all adjacent crystals will change their color randomly." imgpath="" name="Alteration Crystal" type="randomization_crystal"/>
+		<item description="If this crystal is in a structure, it is hard to remove it. Either use a dynamite crystal or destroy small crystals above him." imgpath="jewels/items/boss.png" name="Solid Crystal" type="indestructible_crystal"/>
+		<item description="This is an item." imgpath="" name="Item" type="item"/>
+		<item description="I'm your helpful info box. Select any item while holding the ?-button and I will show you usefull informaition about it." name="Info Box" type="infobox"/>
+	</infos>
+</config>
